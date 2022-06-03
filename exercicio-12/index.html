@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Bhaskara</title>
+    </head>
+
+    <body>
+
+        <main class="container">
+
+            <h1>Calculadora de Bhaskara</h1>
+
+            <div class="dados">
+                <label for="a">Coeficiente A</label>
+                <input id="a" type="number">
+
+                <label for="b">Coeficiente B</label>
+                <input id="b" type="number">
+
+                <label for="c">Coeficiente C</label>
+                <input id="c" type="number">
+            </div>
+
+            <button id="botao" onclick="calculaValores()">Calcular</button>
+
+            <div>
+               <p id="x1"></p>
+               <p id="x2"></p>
+            </div>
+
+        </main>  
+        
+    </body>
+
+    <script src="main.js"></script>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Consumo</title>
+    </head>
+
+    <body>
+
+        <main class="container">
+
+            <h1>Calculadora de consumo</h1>
+
+            <div class="dados">
+                <label for="distancia">Insira a DISTÂNCIA percorrida</label>
+                <input id="distancia" type="number" placeholder="Em KM">
+                
+                <label for="quantidade">Insira a quantidade de COMBUSTÍVEL gasto</label>
+                <input id="quantidade" type="number" placeholder="Em litros">
+
+            </div>
+
+            <button id="botao" onclick="calculaValores()">Calcular</button>
+
+            <div>
+               <p id="resultado"></p>               
+            </div>
+
+        </main>  
+        
+    </body>
+
+    <script src="main.js"></script>
+</html>
